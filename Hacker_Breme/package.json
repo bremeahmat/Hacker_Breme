@@ -1,0 +1,40 @@
+{
+  "name": "HAXKER_BREME",
+  "version": "2.1.3",
+  "description": "Bot Whatsapp multi-appareil developpé par Ainz",
+  "main": "Breme.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "pm2 start Breme.js --attach --name Breme",
+    "stop": "pm2 stop all",
+    "Ovl": "node Breme.js"
+  },
+  "keywords": ["Breme", "HACKER_BREME", "Whatsapp", "Baileys", "Muti-device"],
+  "author": "HACKER_BREME",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc11",
+    "acrcloud":"^1.4.0",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.8.4",
+    "cheerio": "^1.1.0",
+    "cookie": "^1.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "file-type": "^16.5.3",
+    "gtts": "^0.2.1",
+    "javascript-obfuscator": "^4.1.1",
+    "pg": "^8.16.3",
+    "pino": "^9.7.0",
+    "pm2": "^6.0.8",
+    "sqlite3": "^5.1.7",
+    "tempmail.lol": "^4.4.0",
+    "sequelize": "^6.37.7",
+    "simple-git": "^3.28.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "wikipedia": "^2.1.2"
+  }
+}
+
+

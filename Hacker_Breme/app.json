@@ -1,0 +1,57 @@
+{
+  "name": "HACKER_BREME",
+  "description": "Bot WhatsApp Multi-Device basé sur Baileys",
+  "keywords": ["Ainz", "OVL-MD-V2", "Whatsapp", "Baileys", "Muti-device"],
+  "logo": "https://files.catbox.moe/s3bxag.jpeg",
+  "repository": "https://github.com/bremeahmat/Hacker_Breme",
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "PREFIXE": {
+      "description": "Préfixe utilisé pour les commandes du bot",
+      "value": ".",
+      "required": false
+    },
+    "NOM_OWNER": {
+      "description": "Nom de l'Owner du bot",
+      "value": "Breme",
+      "required": false
+    },
+    "NUMERO_OWNER": {
+      "description": "Numéro WhatsApp de l'Owner (au format international)",
+      "value": "237xxxxxxxx",
+      "required": true
+    },
+    "MODE": {
+      "description": "Mode de fonctionnement du bot (public ou private)",
+      "value": "public",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Identifiant de session",
+      "value": "",
+      "required": true
+    },
+    "NOM_BOT": {
+      "description": "Nom du bot",
+      "value": "🤖 HACKER_BREME",
+      "required": false
+    },
+    "STICKER_PACK_NAME": {
+      "description": "Nom du pack de stickers",
+      "value": "🤖 HACKER_BREME",
+      "required": false
+    },
+    "STICKER_AUTHOR_NAME": {
+      "description": "Auteur du sticker",
+      "value": "BREME🔅✨",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
