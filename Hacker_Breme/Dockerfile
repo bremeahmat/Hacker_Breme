@@ -5,13 +5,13 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/bremeahmat/Hacker_Breme/app
-
 WORKDIR /app
 
+COPY package*.json ./
 RUN npm install
 
-EXPOSE 8000
+COPY . .
 
-CMD ["npm", "start"]
+EXPOSE 3000
 
+CMD ["node", "Breme.js"]
